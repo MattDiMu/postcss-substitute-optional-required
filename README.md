@@ -68,7 +68,6 @@ The only available option is `method`, with the possible values `shim-all` (defa
 
 
 ## Usage
-
 ```js
 postcss([ require('postcss-substitute-optional-required') ])
 ```
