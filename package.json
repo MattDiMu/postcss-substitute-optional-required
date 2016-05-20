@@ -1,0 +1,39 @@
+{
+  "name": "postcss-substitute-optional-required",
+  "version": "1.0.0",
+  "description": "PostCSS plugin to shim the pseudo-selectors :required and :optional by using negation (:not) and therefore increase their browser support.",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "required",
+    "optional",
+    "shim",
+    "fix",
+    "browser-support"
+  ],
+  "author": "Matthias Müller <MattDiMu@users.noreply.github.com>",
+  "license": "MIT",
+  "repository": "MattDiMu/postcss-substitute-optional-required",
+  "bugs": {
+    "url": "https://github.com/MattDiMu/postcss-substitute-optional-required/issues"
+  },
+  "homepage": "https://github.com/MattDiMu/postcss-substitute-optional-required",
+  "dependencies": {
+    "postcss": "^5.0.16"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.1.0",
+    "eslint-config-postcss": "^2.0.0"
+  },
+  "scripts": {
+    "test": "ava && eslint *.js"
+  },
+  "eslintConfig": {
+    "extends": "eslint-config-postcss/es5",
+    "rules": {
+      "max-len": 0
+    }
+  }
+}
