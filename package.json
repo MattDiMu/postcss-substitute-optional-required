@@ -1,6 +1,6 @@
 {
   "name": "postcss-substitute-optional-required",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "PostCSS plugin to shim the pseudo-selectors :required and :optional by using negation (:not) and therefore increase their browser support.",
   "keywords": [
     "postcss",
