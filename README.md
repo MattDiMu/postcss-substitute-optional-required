@@ -1,7 +1,6 @@
 # PostCSS Substitute Optional Required [![Build Status][ci-img]][ci] [![dependencies](https://david-dm.org/MattDiMu/postcss-substitute-optional-required.svg)] (https://david-dm.org/MattDiMu/postcss-substitute-optional-required) [![devDependencies](https://david-dm.org/MattDiMu/postcss-substitute-optional-required/dev-status.svg)](https://david-dm.org/MattDiMu/postcss-substitute-optional-required)
 
-##Disclaimer
-I currently recommend you NOT to use this plugin. It's more a POC with few practical use (only for iOS Safari 4.1 and 4.3, which have a very low market share).
+**I currently recommend you NOT to use this plugin. It's more a POC with few practical use (only for iOS Safari 4.1 and 4.3, which have a very low market share).**
 
 
 [PostCSS] plugin to shim the pseudo-selectors :required and :optional by using negation (:not) and therefore slightly increase their browser support.
